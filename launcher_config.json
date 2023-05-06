@@ -30,8 +30,8 @@ NOTE: It must point to the download url of the file and not an HTML page
 	],
 	"clientFolder": "RedProject",
 	"packageFolder": "packages",
-	"newClientUrl" : "#",
-	"newLauncherUrl" : "#",
+	"newClientUrl" : "https://github.com/redProjt/redprojt-client/releases/download/v1.0.0/client-to-update.zip",
+	"newLauncherUrl" : "https://github.com/redProjt/redprojt-client/releases/download/v1.0.0/launcher-to-update.zip",
 	"clientExecutable": "client.exe",
 	"launcherExecutable": "RedProjectLauncher.exe",
 }
