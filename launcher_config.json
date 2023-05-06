@@ -1,0 +1,37 @@
+/**
+• JSON configuration file for the Client Updater
+• clientVersion The version of the client, represented as "major.minor.patch".
+• launcherVersion The version of the launcher, represented as "major.minor".
+• replaceFolders Whether the updater should replace the client's current folders
+• replaceFolderName An array of objects representing the client's folders, each object has the key "name"
+• clientFolder The name of the main client folder, represented as "Tibia"
+NOTE: Set it to "false" or only "" to not use the client folder, so everything will be added to the main folder
+• newClientUrl The URL where the new client version can be downloaded from
+NOTE: It must point to the download url of the file and not an HTML page
+• clientExecutable The path to the client's executable file, represented as "bin/client.exe"
+*/
+{
+	"clientVersion": "13.11.12949",
+	"launcherVersion": "1.2",
+	"replaceFolders": true,
+	"replaceFolderName": [
+		{
+			"name": "assets"
+		},
+		{
+			"name": "storeimages"
+		},
+		{
+			"name": "sounds"
+		},
+		{
+			"name": "bin"
+		}
+	],
+	"clientFolder": "RedProject",
+	"packageFolder": "packages",
+	"newClientUrl" : "#",
+	"newLauncherUrl" : "#",
+	"clientExecutable": "client.exe",
+	"launcherExecutable": "RedProjectLauncher.exe",
+}
